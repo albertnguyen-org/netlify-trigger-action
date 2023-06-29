@@ -1,0 +1,33 @@
+{
+  "name": "netlify-trigger-action",
+  "version": "1.0.0-beta",
+  "description": "Dispatches gh-action after the Netlify deploy finish",
+  "main": "index.js",
+  "files": [
+    "src",
+    "manifest.yml"
+  ],
+  "scripts": {
+    "test": "echo 'Test'"
+  },
+  "keywords": [
+    "netlify-plugin",
+    "github-actions"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/functions": "^1.3.0",
+    "@octokit/rest": "18.1.0",
+    "debug": "4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@types/debug": "^4.1.7",
+    "netlify-plugin-github-dispatch": "^1.1.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
+  "homepage": "https://github.com/manscaped-dev/manscaped-5-portal"
+}
